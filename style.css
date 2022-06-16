@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center; /* Iteration 2: Align all the text to center*/
+    /* Iteration 2: Align all the text to center*/
     box-sizing: border-box;
 }
 .container {
@@ -17,39 +17,34 @@
     margin-bottom: 30px;
 }
 .category {
-    width: 100%; /* Iteration 3: make width 100% */
-    height: auto; /* Iteration 4: Apply height value to 'auto'*/
+    /* Iteration 3: make width 100% */
+    /* Iteration 4: Apply height value to 'auto'*/
     padding: 3pc 0 1.5pc 0;
 }
 .category ul {
     width: 100%;
 }
 .category ul li {
-    display: inline; /* Iteration 5: Display items horizontally */
+    /* Iteration 5: Display items horizontally */
     margin: 3px; 
 }
 a {
-    color: black; /* Iteration 6: make color to black */
-    font-weight: bold; /* Iteration 7: Make text bold*/
+    /* Iteration 6: make color to black */
+    /* Iteration 7: Make text bold*/
     letter-spacing: 1px;
     padding: 10px 100px;
-    text-decoration: none; /* Iteration 8: remove the text-decoration for the links */
-    background-color: rgba(255, 255, 0, 0.835); /* Iteration 9: Apply background with color 'rgba(255, 255, 0, 0.835)' */
+    /* Iteration 8: remove the text-decoration for the links */
+    /* Iteration 9: Apply background with color 'rgba(255, 255, 0, 0.835)' */
 }
 /* Iteration 10: Create a state, when hovered on a link the background-color should change to 'rgba(212, 212, 7, 0.959)'*/
-a:hover {
-    background-color: rgba(212, 212, 7, 0.959);
-}
+
 .item,
 .aminties {
     width: 100%;
     height: auto;
 }
 /* Iteration 11: Style image located in 'item-image' class by giving 'width' and 'height' values '100%' that fit perfectly to the page */
-.item-image img {
-    width: 100%; 
-    height: 100%;
-}
+
 .item-image,
 .item-price,
 .img {
@@ -64,14 +59,9 @@ a:hover {
     background: rgba(255, 255, 0, 0.835);
 }
 /* Iteration 12: Create a selector 'h1' and give 'font-weight of 600' and 'font-size of 2.5pc' */
-h1 {
-    font-weight: 600;
-    font-size: 2.5pc;
-}
+
 /* Iteration 13: Create a selector 'p' and give 'font-weight of 600' */
-p {
-    font-weight: 500;
-}
+
 .aminties {
     padding: 2pc 0;
 }
@@ -79,5 +69,5 @@ p {
     width: 100%;
     height: auto;
     padding: 10px;
-    background: white; /* Iteration 14: Make background-color to white */
+    /* Iteration 14: Make background-color to white */
 }
